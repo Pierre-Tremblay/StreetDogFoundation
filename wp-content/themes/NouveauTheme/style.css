@@ -1,0 +1,43 @@
+/*
+Theme Name: NouveauTheme
+Author: Pierre Tremblay
+Author URI: https//www.fluoh.fr
+Description: Voici le petit thème que j'ai créé pour m'entrainer à Wordpress.
+Version: 0.2
+Tags: Nouveau-thème, editor-style, simple, basic, cours
+Text Domain: The One
+*/
+
+
+
+/* Navbar */
+
+.menu-menu-container ul {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px;
+    
+}
+
+.menu-menu-container ul li {
+    margin-left: 50px;
+}
+
+.menu-menu-container ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-menu-container ul li a:hover {
+    background-color: midnightblue;
+    padding: 0 10px;
+    display: block;
+}
+
+.menu-menu-container {
+    background-color: cornflowerblue;
+    color: white;
+    
+}
